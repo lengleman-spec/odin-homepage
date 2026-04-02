@@ -6,7 +6,7 @@
   box-sizing: border-box;
 }
 
-body {
+.hero-work {
   background-image: url(imgs/page-turner.svg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -16,7 +16,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 3rem;
+  padding: 3rem;
   padding-bottom: 4rem;
 }
 
@@ -25,7 +25,7 @@ h1 {
   font-size: 2.5rem;
   position: absolute;
   bottom: 10px;
-  left: 65px;
+  left: 100px;
   color: white;
 }
 
@@ -76,7 +76,7 @@ h1 {
 
 /* My Work Section */
 .work-section h2 {
-  margin-left: 2.5rem;
+  padding: 3rem;
   font-size: 2rem;
   font-family: "Playfair Display";
 }
@@ -121,4 +121,52 @@ h1 {
   font-size: 1.3rem;
   display: flex;
   justify-content: space-between;
+}
+
+/* Footer */
+footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  place-items: center;
+  padding: 6rem 4rem;
+  background-color: rgb(108, 167, 187);
+  color: white;
+}
+
+footer img {
+  max-width: 500px;
+}
+
+.footer-left h2 {
+  font-size: 2rem;
+  font-family: "Playfair Display";
+  margin-bottom: 1rem;
+}
+
+.footer-left p {
+  margin-bottom: 1rem;
+  font-size: 1.3rem;
+  font-family: "Roboto";
+}
+
+address {
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+}
+
+.contact-icons {
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+}
+
+.contact-icons a {
+  text-decoration: none;
+  color: white;
+}
+
+.footer-icons {
+  display: flex;
+  gap: 1rem;
+  font-size: 1.7rem;
+  color: black;
 }
