@@ -170,3 +170,25 @@ address {
   font-size: 1.7rem;
   color: black;
 }
+
+/* Media query tablet */
+/* Tablet layout */
+@media (max-width: 768px) {
+  .hero-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    position: relative;
+  }
+
+  .hero-pic-container {
+    position: relative;
+    transform: translate(25px, 20px);
+    z-index: 2;
+  }
+
+  .hero-about-container h2,
+  .hero-about-container p {
+    text-align: left;
+  }
+}
