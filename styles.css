@@ -17,6 +17,7 @@ body {
   justify-content: center;
   align-items: center;
   margin: 3rem;
+  padding-bottom: 4rem;
 }
 
 h1 {
@@ -71,4 +72,53 @@ h1 {
 .hero-icons i {
   font-size: 1.5rem;
   margin-left: 0.8rem;
+}
+
+/* My Work Section */
+.work-section h2 {
+  margin-left: 2.5rem;
+  font-size: 2rem;
+  font-family: "Playfair Display";
+}
+.work-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 3rem;
+  margin: 2.5rem;
+}
+
+.card {
+  box-shadow: 5px 5px 3px 0px rgba(0, 0, 0, 0.5);
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+}
+
+.card img {
+  max-width: 300px;
+}
+
+.card-bottom {
+  margin-left: 1.2rem;
+  margin-right: 1.2rem;
+  margin-top: 1.2rem;
+  margin-bottom: 1.5rem;
+}
+
+.card-bottom h4 {
+  font-size: 1.3rem;
+  font-family: "Playfair Display";
+  margin-bottom: 0.5rem;
+}
+
+.card-bottom p {
+  color: rgb(65, 65, 65);
+}
+
+.work-icons {
+  font-size: 1.3rem;
+  display: flex;
+  justify-content: space-between;
 }
