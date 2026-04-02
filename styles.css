@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(imgs/page-turner.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 3rem;
+}
+
+h1 {
+  font-family: "Playfair Display";
+  font-size: 2.5rem;
+  position: absolute;
+  bottom: 10px;
+  left: 65px;
+  color: white;
+}
+
+.hero-pic-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.hero-pic-container img {
+  max-width: 400px;
+}
+
+.hero-about-container {
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.5);
+  max-width: 500px;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.hero-about-container h2 {
+  font-size: 2rem;
+  font-family: "Playfair Display";
+  margin-bottom: 1.5rem;
+}
+
+.hero-about-container {
+  background-color: white;
+  color: rgb(65, 65, 65);
+}
+
+.hero-about-container p {
+  font-size: 1.2rem;
+  font-family: "Roboto";
+  margin-bottom: 1rem;
+}
+
+.hero-icons {
+  align-self: flex-end;
+}
+
+.hero-icons i {
+  font-size: 1.5rem;
+  margin-left: 0.8rem;
+}
